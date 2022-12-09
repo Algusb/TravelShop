@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ccce994-0c4a-45ac-899c-fa936d445088" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Documents/Plan.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gate-simulator/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/gate-simulator/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +57,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Documents" />
       <recent name="$PROJECT_DIR$/gate-simulator" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/artifacts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/artifacts" />
     </key>
   </component>
