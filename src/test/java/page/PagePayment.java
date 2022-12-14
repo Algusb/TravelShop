@@ -4,7 +4,6 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.SelenideElement;
 import data.DataHelper;
-
 import java.time.Duration;
 
 import static com.codeborne.selenide.Condition.text;
@@ -80,22 +79,21 @@ public class PagePayment {
         requiredField.shouldBe(Condition.visible);
     }
 
-    public void checkInvalidCardNumberT(DataHelper.CardInfo invalidValue) {
+    public void checkInvalidCardNumber(DataHelper.CardInfo invalidValue) {
         invalidFormatCard.shouldHave(text("Неверный формат"));
     }
 
-    public void checkInvalidMonthT() {
+    public void checkInvalidMonth() {
         invalidMonth.shouldHave(text("Неверный формат"));
     }
 
-    public void checkInvalidYearT() { invalidYear.shouldHave(text("Истёк срок действия карты"));
-    }
+    public void checkInvalidYear() { invalidYear.shouldHave(text("Истёк срок действия карты"));}
 
-    public void checkInvalidOwnerT() {
+    public void checkInvalidOwner() {
         invalidOwner.shouldHave(text("Неверный формат"));
     }
 
-    public void checkInvalidCVVT() {
+    public void checkInvalidCVC() {
         invalidCVV.shouldHave(text("Неверный формат"));
     }
 
