@@ -1,0 +1,1 @@
+{"uuid":"b7f4332d-1680-4485-86d9-b8d106ede0ce","name":"Тест загрузки вкладки Купить","children":["638b8783-fb2e-423a-afce-5f689f6c363e"],"befores":[{"name":"openForTests","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1670762273742,"stop":1670762273936}],"afters":[],"start":1670762273740,"stop":1670762274146}

@@ -1,0 +1,1 @@
+{"uuid":"90a60d13-76a3-476b-8433-4856a458afa6","name":"Тест DECLINED карты с валидными данными","children":["13a097a8-5647-4690-87d4-1795a73cd5e0"],"befores":[{"name":"openForTests","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1670762225251,"stop":1670762225410}],"afters":[],"start":1670762225247,"stop":1670762237182}
