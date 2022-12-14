@@ -17,7 +17,7 @@ public class PagePayment {
     private SelenideElement monthField = $("[placeholder = '08']");
     private SelenideElement yearField = $("[placeholder = '22']");
     private SelenideElement ownerField = $$("[class='input__control']").get(3);
-    private SelenideElement cvvField = $("[placeholder='999']");
+    private SelenideElement cvcField = $("[placeholder='999']");
     private SelenideElement buttonForContinue = $(byText("Продолжить"));
     private SelenideElement sendRequestBankButton = $(withText("Отправляем запрос в Банк..."));
 
@@ -34,7 +34,7 @@ public class PagePayment {
     private SelenideElement invalidMonth = $$("span.input__sub").get(1);
     private SelenideElement invalidYear = $$("span.input__sub").get(2);
     private SelenideElement invalidOwner = $$("span.input__sub").get(3);
-    private SelenideElement invalidCVV = $$("span.input__sub").get(4);
+    private SelenideElement invalidCVC = $$("span.input__sub").get(4);
 
 
     public void fillingForm(DataHelper.CardInfo cardInfo) {
@@ -42,7 +42,7 @@ public class PagePayment {
         monthField.setValue(cardInfo.getMonth());
         yearField.setValue(cardInfo.getYear());
         ownerField.setValue(cardInfo.getOwner());
-        cvvField.setValue(cardInfo.getCvv());
+        cvcField.setValue(cardInfo.getCVC());
         buttonForContinue.click();
         sendRequestBankButton.shouldBe(Condition.visible, Duration.ofSeconds(10));
     }
@@ -52,7 +52,7 @@ public class PagePayment {
         monthField.setValue(cardInfo.getMonth());
         yearField.setValue(cardInfo.getYear());
         ownerField.setValue(cardInfo.getOwner());
-        cvvField.setValue(cardInfo.getCvv());
+        cvcField.setValue(cardInfo.getCVC());
         buttonForContinue.click();
     }
 
@@ -94,7 +94,7 @@ public class PagePayment {
     }
 
     public void checkInvalidCVC() {
-        invalidCVV.shouldHave(text("Неверный формат"));
+        invalidCVC.shouldHave(text("Неверный формат"));
     }
 
     public void checkNotCorrectData() { NotCorrectData.shouldHave(text("Неверный формат")); }

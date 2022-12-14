@@ -18,7 +18,7 @@ public class DataHelper {
     }
 
     public static String getInvalidCardNumber() {
-        return "0000 0000 0000  0001";
+        return "1111 1111 1111  1111";
     }
 
     public static String getEmptyCardNumberValue() {
@@ -85,7 +85,7 @@ public class DataHelper {
     }
 
     public static String getInvalidCVC() {
-        return "12";
+        return "12 ";
     }
 
     public static String getEmptyCVCValue() {
@@ -144,6 +144,6 @@ public class DataHelper {
         String month;
         String year;
         String owner;
-        String cvv;
+        String CVC;
     }
 }

@@ -146,6 +146,7 @@ public class PaymentCardTest {
         payForm.checkInvalidExpirationDate();
     }
 
+
     @Test
     @DisplayName("Тест данные владельца карты на киррилице")
     @Severity(SeverityLevel.NORMAL)
