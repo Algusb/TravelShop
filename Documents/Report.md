@@ -14,7 +14,7 @@
 * 14 успешных (по 7 для каждого способа оплаты)
 * 12 неуспешных (по 6 для каждого способа оплаты)
 
-![img_1.png](img_1.png)
+![Screenshot201](https://user-images.githubusercontent.com/106704552/208532627-4bb157bd-b44b-40db-bba6-43df89596984.png)
 
 [Заведено 9 Issue](https://github.com/Algusb/TravelShop/issues)
 
