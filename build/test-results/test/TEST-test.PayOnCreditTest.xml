@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.PayOnCreditTest" tests="13" skipped="0" failures="6" errors="0" timestamp="2022-12-14T17:44:33" hostname="MacBook-Air-Aleksej.local" time="104.097">
+<testsuite name="test.PayOnCreditTest" tests="13" skipped="0" failures="6" errors="0" timestamp="2022-12-19T21:37:37" hostname="MacBook-Air-Aleksej.local" time="102.888">
   <properties/>
-  <testcase name="Тест отправка пустой формы" classname="test.PayOnCreditTest" time="13.774"/>
-  <testcase name="Тест с валидными данными" classname="test.PayOnCreditTest" time="11.797">
+  <testcase name="Тест отправка пустой формы" classname="test.PayOnCreditTest" time="15.676"/>
+  <testcase name="Тест с валидными данными" classname="test.PayOnCreditTest" time="12.139">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;45000&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;45000&gt; but was: &lt;null&gt;
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -103,14 +103,14 @@
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="Тест невалидной карты" classname="test.PayOnCreditTest" time="9.667"/>
-  <testcase name="Тест с невалидными данными всех полей" classname="test.PayOnCreditTest" time="1.693"/>
-  <testcase name="Тест DECLINED карты с валидными данными" classname="test.PayOnCreditTest" time="23.612">
-    <failure message="Element should be visible {with text: Ошибка! Банк отказал в проведении операции.}&#10;Element: '&lt;div class=&quot;notification__content&quot; displayed:false&gt;&lt;/div&gt;'&#10;Actual value: hidden&#10;Screenshot: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671039933821.0.png&#10;Page source: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671039933821.0.html&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should be visible {with text: Ошибка! Банк отказал в проведении операции.}
+  <testcase name="Тест невалидного номера карты" classname="test.PayOnCreditTest" time="11.061"/>
+  <testcase name="Тест с невалидными данными всех полей" classname="test.PayOnCreditTest" time="1.464"/>
+  <testcase name="Тест DECLINED карты с валидными данными" classname="test.PayOnCreditTest" time="25.73">
+    <failure message="Element should be visible {with text: Ошибка! Банк отказал в проведении операции.}&#10;Element: '&lt;div class=&quot;notification__content&quot; displayed:false&gt;&lt;/div&gt;'&#10;Actual value: hidden&#10;Screenshot: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671485923728.0.png&#10;Page source: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671485923728.0.html&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should be visible {with text: Ошибка! Банк отказал в проведении операции.}
 Element: '&lt;div class=&quot;notification__content&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: hidden
-Screenshot: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671039933821.0.png
-Page source: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671039933821.0.html
+Screenshot: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671485923728.0.png
+Page source: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671485923728.0.html
 Timeout: 15 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:135)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
@@ -214,7 +214,7 @@ Timeout: 15 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="Тест данные владельца карты на киррилице" classname="test.PayOnCreditTest" time="8.962">
+  <testcase name="Тест данные владельца карты на киррилице" classname="test.PayOnCreditTest" time="3.098">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;45000&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;45000&gt; but was: &lt;null&gt;
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -222,7 +222,7 @@ Timeout: 15 s.
 	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
 	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
-	at app//test.PayOnCreditTest.shouldCheckTheOwnersDataInCyrillic(PayOnCreditTest.java:156)
+	at app//test.PayOnCreditTest.shouldCheckTheOwnersDataInCyrillic(PayOnCreditTest.java:157)
 	at java.base@17.0.3/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@17.0.3/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base@17.0.3/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -315,12 +315,12 @@ Timeout: 15 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="Тест отправить пустую форму заявки, затем заполнить валидными данными и отправить повторно" classname="test.PayOnCreditTest" time="10.517"/>
-  <testcase name="Тест невалидного месяца" classname="test.PayOnCreditTest" time="6.006">
-    <failure message="Element not found {with text: Истёк срок действия карты}&#10;Expected: text &quot;Истёк срок действия карты&quot;&#10;Screenshot: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671039959310.1.png&#10;Page source: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671039959310.1.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[contains(normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {with text: Истёк срок действия карты}
+  <testcase name="Тест отправить пустую форму заявки, затем заполнить валидными данными и отправить повторно" classname="test.PayOnCreditTest" time="12.25"/>
+  <testcase name="Тест невалидного месяца" classname="test.PayOnCreditTest" time="5.787">
+    <failure message="Element not found {with text: Истёк срок действия карты}&#10;Expected: text &quot;Истёк срок действия карты&quot;&#10;Screenshot: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671485944936.1.png&#10;Page source: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671485944936.1.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[contains(normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {with text: Истёк срок действия карты}
 Expected: text &quot;Истёк срок действия карты&quot;
-Screenshot: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671039959310.1.png
-Page source: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671039959310.1.html
+Screenshot: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671485944936.1.png
+Page source: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671485944936.1.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[contains(normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
@@ -334,7 +334,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
 	at app/jdk.proxy3/jdk.proxy3.$Proxy16.shouldHave(Unknown Source)
 	at app//page.PagePayment.checkInvalidExpirationDate(PagePayment.java:68)
-	at app//test.PayOnCreditTest.shouldCheckTheInvalidMonth(PayOnCreditTest.java:110)
+	at app//test.PayOnCreditTest.shouldCheckTheInvalidMonth(PayOnCreditTest.java:111)
 	at java.base@17.0.3/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@17.0.3/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base@17.0.3/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -427,16 +427,16 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[contains(normalize-space(translate(string(.), '	
  ', '    ')), &quot;Истёк срок действия карты&quot;)]/parent::*&quot;}
-  (Session info: chrome=108.0.5359.98)
+  (Session info: chrome=108.0.5359.124)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.2', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e2a249a2315c25af824f5c390baf392c, findElement {using=xpath, value=.//*/text()[contains(normalize-space(translate(string(.), '	
+Command: [3b64bc613c745fc9fb13f42a487da0ab, findElement {using=xpath, value=.//*/text()[contains(normalize-space(translate(string(.), '	
  ', '    ')), &quot;Истёк срок действия карты&quot;)]/parent::*}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.98, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/sz/3nz422q94xb...}, goog:chromeOptions: {debuggerAddress: localhost:49430}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49430/devtoo..., se:cdpVersion: 108.0.5359.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e2a249a2315c25af824f5c390baf392c
-	at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/sz/3nz422q94xb...}, goog:chromeOptions: {debuggerAddress: localhost:50154}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50154/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b64bc613c745fc9fb13f42a487da0ab
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
 	at java.base@17.0.3/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@17.0.3/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base@17.0.3/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -459,7 +459,7 @@ Session ID: e2a249a2315c25af824f5c390baf392c
 	... 99 more
 </failure>
   </testcase>
-  <testcase name="Тест с APPROVED картой и валидными данными" classname="test.PayOnCreditTest" time="8.405">
+  <testcase name="Тест с APPROVED картой и валидными данными" classname="test.PayOnCreditTest" time="7.133">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;APPROVED&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;APPROVED&gt; but was: &lt;null&gt;
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -560,14 +560,14 @@ Session ID: e2a249a2315c25af824f5c390baf392c
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="Тест с истекшим сроком действия карты" classname="test.PayOnCreditTest" time="1.901"/>
-  <testcase name="Тест загрузки вкладки Купить в кредит" classname="test.PayOnCreditTest" time="0.268"/>
-  <testcase name="Тест с неверно указаным сроком действия карты" classname="test.PayOnCreditTest" time="1.609"/>
-  <testcase name="Тест невалидного месяца со значением 00" classname="test.PayOnCreditTest" time="5.794">
-    <failure message="Element not found {with text: Истёк срок действия карты}&#10;Expected: text &quot;Истёк срок действия карты&quot;&#10;Screenshot: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671039977299.2.png&#10;Page source: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671039977299.2.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[contains(normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {with text: Истёк срок действия карты}
+  <testcase name="Тест с истекшим сроком действия карты" classname="test.PayOnCreditTest" time="1.233"/>
+  <testcase name="Тест загрузки вкладки Купить в кредит" classname="test.PayOnCreditTest" time="0.238"/>
+  <testcase name="Тест с неверно указаным сроком действия карты" classname="test.PayOnCreditTest" time="1.283"/>
+  <testcase name="Тест невалидного месяца со значением 00" classname="test.PayOnCreditTest" time="5.717">
+    <failure message="Element not found {with text: Истёк срок действия карты}&#10;Expected: text &quot;Истёк срок действия карты&quot;&#10;Screenshot: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671485960544.2.png&#10;Page source: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671485960544.2.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[contains(normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {with text: Истёк срок действия карты}
 Expected: text &quot;Истёк срок действия карты&quot;
-Screenshot: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671039977299.2.png
-Page source: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671039977299.2.html
+Screenshot: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671485960544.2.png
+Page source: file:/Users/aleksejgusev/Desktop/Projects/Study/Diploma/TravelShop/build/reports/tests/1671485960544.2.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[contains(normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:87)
@@ -581,7 +581,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:82)
 	at app/jdk.proxy3/jdk.proxy3.$Proxy16.shouldHave(Unknown Source)
 	at app//page.PagePayment.checkInvalidExpirationDate(PagePayment.java:68)
-	at app//test.PayOnCreditTest.shouldCheckTheInvalidMonthZero(PayOnCreditTest.java:121)
+	at app//test.PayOnCreditTest.shouldCheckTheInvalidMonthZero(PayOnCreditTest.java:122)
 	at java.base@17.0.3/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@17.0.3/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base@17.0.3/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -674,16 +674,16 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[contains(normalize-space(translate(string(.), '	
  ', '    ')), &quot;Истёк срок действия карты&quot;)]/parent::*&quot;}
-  (Session info: chrome=108.0.5359.98)
+  (Session info: chrome=108.0.5359.124)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.2', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e2a249a2315c25af824f5c390baf392c, findElement {using=xpath, value=.//*/text()[contains(normalize-space(translate(string(.), '	
+Command: [3b64bc613c745fc9fb13f42a487da0ab, findElement {using=xpath, value=.//*/text()[contains(normalize-space(translate(string(.), '	
  ', '    ')), &quot;Истёк срок действия карты&quot;)]/parent::*}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.98, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/sz/3nz422q94xb...}, goog:chromeOptions: {debuggerAddress: localhost:49430}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49430/devtoo..., se:cdpVersion: 108.0.5359.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e2a249a2315c25af824f5c390baf392c
-	at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/sz/3nz422q94xb...}, goog:chromeOptions: {debuggerAddress: localhost:50154}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50154/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b64bc613c745fc9fb13f42a487da0ab
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
 	at java.base@17.0.3/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@17.0.3/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base@17.0.3/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -707,11 +707,11 @@ Session ID: e2a249a2315c25af824f5c390baf392c
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 39935
+  <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 47948
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-дек. 14, 2022 8:44:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+дек. 20, 2022 12:37:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
 java.sql.SQLException: No suitable driver found for 
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:706)
@@ -1100,7 +1100,7 @@ java.sql.SQLException: No suitable driver found for
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
 	at data.SQLHelper.getConnection(SQLHelper.java:18)
 	at data.SQLHelper.getPaymentAmount(SQLHelper.java:42)
-	at test.PayOnCreditTest.shouldCheckTheOwnersDataInCyrillic(PayOnCreditTest.java:155)
+	at test.PayOnCreditTest.shouldCheckTheOwnersDataInCyrillic(PayOnCreditTest.java:156)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1195,7 +1195,7 @@ java.sql.SQLException: Null connection
 	at org.apache.commons.dbutils.QueryRunner.query(QueryRunner.java:363)
 	at org.apache.commons.dbutils.QueryRunner.query(QueryRunner.java:266)
 	at data.SQLHelper.getPaymentAmount(SQLHelper.java:43)
-	at test.PayOnCreditTest.shouldCheckTheOwnersDataInCyrillic(PayOnCreditTest.java:155)
+	at test.PayOnCreditTest.shouldCheckTheOwnersDataInCyrillic(PayOnCreditTest.java:156)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

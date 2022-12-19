@@ -89,7 +89,7 @@ public class PayOnCreditTest {
     }
 
     @Test
-    @DisplayName("Тест невалидной карты")
+    @DisplayName("Тест невалидного номера карты")
     @Severity(SeverityLevel.NORMAL)
     void shouldCheckTheInvalidCard() {
 
@@ -98,6 +98,7 @@ public class PayOnCreditTest {
         payForm.fillingForm(invalidCardNumber);
         payForm.checkErrorNotification();
     }
+
 
     @Test
     @DisplayName("Тест невалидного месяца")

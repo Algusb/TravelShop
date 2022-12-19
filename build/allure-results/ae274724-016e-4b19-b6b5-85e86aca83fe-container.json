@@ -1,1 +1,0 @@
-{"uuid":"ae274724-016e-4b19-b6b5-85e86aca83fe","name":"Тест с истекшим сроком действия карты","children":["812cb945-ac58-448c-bb57-1d6e8dcabaad"],"befores":[{"name":"openForTests","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1670762271826,"stop":1670762271959}],"afters":[],"start":1670762271821,"stop":1670762273737}

@@ -1,1 +1,0 @@
-{"uuid":"e64e871e-1138-4b82-9e8d-e742b42159d9","name":"Тест невалидного месяца","children":["02d4ccf5-b122-46a7-bfd2-2a1106c06c52"],"befores":[{"name":"openForTests","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1670762248881,"stop":1670762248970}],"afters":[],"start":1670762248872,"stop":1670762250295}

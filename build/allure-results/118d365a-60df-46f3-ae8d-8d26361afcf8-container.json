@@ -1,1 +1,0 @@
-{"uuid":"118d365a-60df-46f3-ae8d-8d26361afcf8","name":"Тест невалидной карты","children":["9c451569-d03b-4947-ac27-8696caa22205"],"befores":[{"name":"openForTests","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1670762260287,"stop":1670762260433}],"afters":[],"start":1670762260283,"stop":1670762271819}

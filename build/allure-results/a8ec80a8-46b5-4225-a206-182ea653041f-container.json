@@ -1,1 +1,0 @@
-{"uuid":"a8ec80a8-46b5-4225-a206-182ea653041f","name":"Тест с неверно указаным сроком действия карты","children":["6301a8f0-cba1-4a8a-954a-199c8a1683e7"],"befores":[{"name":"openForTests","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1670762391380,"stop":1670762391441}],"afters":[],"start":1670762391377,"stop":1670762392574}

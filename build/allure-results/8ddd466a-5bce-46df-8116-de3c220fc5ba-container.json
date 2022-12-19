@@ -1,1 +1,0 @@
-{"uuid":"8ddd466a-5bce-46df-8116-de3c220fc5ba","name":"Тест с невалидными данными всех полей","children":["4c130e91-0145-417c-9ae0-ef30c146dd31"],"befores":[{"name":"openForTests","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1670762223167,"stop":1670762223352}],"afters":[],"start":1670762223155,"stop":1670762225240}

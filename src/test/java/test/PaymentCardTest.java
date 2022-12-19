@@ -93,7 +93,7 @@ public class PaymentCardTest {
     }
 
     @Test
-    @DisplayName("Тест невалидной карты")
+    @DisplayName("Тест невалидного номера карты")
     @Severity(SeverityLevel.NORMAL)
     void shouldCheckTheInvalidCard() {
 

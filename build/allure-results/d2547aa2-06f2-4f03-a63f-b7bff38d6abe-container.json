@@ -1,1 +1,0 @@
-{"uuid":"d2547aa2-06f2-4f03-a63f-b7bff38d6abe","name":"Тест отправка пустой формы","children":["b31747d0-adc2-49fa-b517-97457c14ec23"],"befores":[{"name":"openForTests","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1670762185751,"stop":1670762204605}],"afters":[],"start":1670762185428,"stop":1670762209616}

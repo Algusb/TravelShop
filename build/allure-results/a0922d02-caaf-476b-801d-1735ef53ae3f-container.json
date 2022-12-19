@@ -1,1 +1,0 @@
-{"uuid":"a0922d02-caaf-476b-801d-1735ef53ae3f","name":"Тест с APPROVED картой и валидными данными","children":["bc4deb0f-d861-4c20-8007-ed5809e2624a"],"befores":[{"name":"openForTests","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1670762250304,"stop":1670762250437}],"afters":[],"start":1670762250300,"stop":1670762260279}

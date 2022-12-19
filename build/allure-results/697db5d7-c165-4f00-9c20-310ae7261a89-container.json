@@ -1,1 +1,0 @@
-{"uuid":"697db5d7-c165-4f00-9c20-310ae7261a89","name":"Тест с APPROVED картой и валидными данными","children":["e8e1eb33-bd72-47ae-b7f3-e0cdee930784"],"befores":[{"name":"openForTests","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1670762378854,"stop":1670762378973}],"afters":[],"start":1670762378851,"stop":1670762382129}

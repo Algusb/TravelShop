@@ -1,1 +1,0 @@
-{"uuid":"c6376150-1c8c-4795-9427-e4a940f511a9","name":"Тест с валидными данными","children":["dc63e97e-032e-476a-8ecc-805ff4d57860"],"befores":[{"name":"openForTests","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1670762350486,"stop":1670762351211}],"afters":[],"start":1670762350454,"stop":1670762356265}
