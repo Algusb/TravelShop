@@ -2,7 +2,7 @@
 
 * [План автоматизации](https://github.com/Algusb/TravelShop/blob/master/Documents/Plan.md)
 
-* [Отчет по итогам тестированию]()
+* [Отчет по итогам тестированию](https://github.com/Algusb/TravelShop/blob/master/Documents/Report.md)
 
 * [Отчет по итогам автоматизации](https://github.com/Algusb/TravelShop/blob/master/Documents/Summary.md)
 
